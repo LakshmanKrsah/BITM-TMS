@@ -10,17 +10,26 @@
     justify-content: space-between; 
     align-items: flex-start; 
     margin-bottom: 3em;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
+    background-image: url(../res/bit-bg-blured.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    display: grid;
 }
 
 .contact {
-    flex: 1; 
+    display: flex;
+    justify-content: space-between;
+    /*flex:1;*/
+    width: 100%;
     margin-right: 20px; 
     padding: 3em;
 }
 
 .map {
-    flex: 1; 
+     
     padding: 3em;
 }
 
